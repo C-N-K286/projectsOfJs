@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Timer</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <center><h1>Timer</h1></center>
+    <center>
+       <table >
+           <tr>
+               <td>
+                    <button id="changeLength" onclick="sessionLen('+')">+</button>
+                    <span id="session">25</span>
+                   <button id="changeLength" onclick="sessionLen('-')">-</button>
+               </td>
+           </tr>
+       </table>
+    </center>
+        <div class="set" >
+            <p id="timer" class="timer">
+                <span id="time" class="time"></span>
+            </p>
+        </div>
+        <center>
+            <button onclick="reset()">Reset</button>
+        </center>
+        
+    <script src="./app.js"></script>
+</body>
+</html>

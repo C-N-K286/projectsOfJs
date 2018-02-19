@@ -1,0 +1,27 @@
+body{
+    background-color: aqua;
+}
+.set{
+ padding-left: 43%;
+}
+.timer{
+    height: 200px;
+    width: 200px;
+    border: 2px solid;
+    border-radius: 100%;
+}
+.time{
+    position: absolute;
+    font-size: 50px;
+    padding-left: 45px;
+    padding-top: 50px;
+}
+button{
+    border: 0;
+    background-color: aqua;
+    font-size: 50px;
+    width:50px;
+}
+table{
+    font-size: 50px;
+}

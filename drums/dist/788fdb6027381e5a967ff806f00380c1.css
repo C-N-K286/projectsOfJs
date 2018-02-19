@@ -1,0 +1,25 @@
+html { 
+    background: url(d4ca4a75be7e7205cd12a642023d7f62.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  button{
+    height: 70px;
+    width: 70px;
+    background-color: black;
+    color: aliceblue;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    transition: all 3.5s;
+    }
+
+  .drums{
+      padding: 20%;
+  }
+  .playing
+  {
+      transform: scale(1.1);
+      border-color: orange;
+  }
